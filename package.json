@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+ssh://git@github.com:leocaseiro/bug-webpack-sass-source-map-material-components-web.git"
   },
   "author": "Leo Caseiro <leobok@gmail.com>",
   "license": "MIT",
