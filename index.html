@@ -10,10 +10,12 @@
 <body>
     <main>
         <h1 class="mdc-typography--title">Hello World</h1>
-        <p class="mdc-typography--body1">See link on <a href="https://github.com/leocaseiro/bug-webpack-sass-source-map-material-components-web">github</a></p>
+        <p class="mdc-typography--body1">See link on
+            <a href="https://github.com/leocaseiro/bug-webpack-sass-source-map-material-components-web">github</a>
+        </p>
 
         <div class="mdc-form-field ">
-            <div class="mdc-checkbox">
+            <div class="mdc-checkbox" data-mdc-auto-init="MDCCheckbox">
                 <input type="checkbox" id="my-checkbox" class="mdc-checkbox__native-control" />
                 <div class="mdc-checkbox__background">
                     <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
@@ -23,6 +25,16 @@
                 </div>
             </div>
             <label for="my-checkbox">Can you see the checkbox?</label>
+        </div>
+
+        <br>
+
+        <div class="mdc-form-field">
+            <div class="mdc-text-field" data-mdc-auto-init="MDCTextField">
+                <input class="mdc-text-field__input" type="text" id="input">
+                <label for="input" class="mdc-text-field__label">Answer Here</label>
+                <div class="mdc-text-field__bottom-line"></div>
+            </div>
         </div>
     </main>
 </body>

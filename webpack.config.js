@@ -14,7 +14,7 @@ module.exports = {
         path: path.resolve(__dirname, './dist'),
         filename: 'index.min.js'
     },
-    devtool: 'inline-source-map',
+    // devtool: 'inline-source-map',
     devServer: {
         contentBase: './'
     },
