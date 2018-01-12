@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sass Webpack Bug with Material Components when sourcemap is enabled</title>
+</head>
+
+<body>
+    <main>
+        <h1 class="mdc-typography--title">Hello World</h1>
+        <p class="mdc-typography--body1">See link on
+            <a href="#">github</a>
+        </p>
+
+        <div class="mdc-form-field ">
+            <div class="mdc-checkbox">
+                <input type="checkbox" id="my-checkbox" class="mdc-checkbox__native-control" />
+                <div class="mdc-checkbox__background">
+                    <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                        <path class="mdc-checkbox__checkmark__path" fill="none" stroke="white" d="M1.73,12.91 8.1,19.28 22.79,4.59"></path>
+                    </svg>
+                    <div class="mdc-checkbox__mixedmark"></div>
+                </div>
+            </div>
+            <label for="my-checkbox">Can you see the checkbox?</label>
+        </div>
+    </main>
+</body>
+
+</html>
